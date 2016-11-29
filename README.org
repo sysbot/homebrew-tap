@@ -9,9 +9,9 @@ Noms is formula for [Noms](https://github.com/attic-labs/noms) by Attic-lab.
 *** Install
 
 #+BEGIN_SRC bash
-$ brew tap sysbot/noms
+$ brew tap sysbot/tap
 $ brew install noms [options]
-#+END_SRC
+#+END_SRC>
 
 *** Options
 
@@ -19,7 +19,7 @@ To get list of all available options, call ~brew info noms~. Here is
 relevant part from output of that command for your convenience.
 
 #+BEGIN_SRC bash
-==> Options
---HEAD
-  Install HEAD version
+  ==> Options
+  --HEAD
+    Install HEAD version
 #+END_SRC

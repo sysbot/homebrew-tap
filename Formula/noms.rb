@@ -19,7 +19,7 @@ class Noms < Formula
       "url-fetch",
       "xml-import",
     ].each do |b|
-      mv b, bin/
+      mv b, bin
     end
   end
 
